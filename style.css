@@ -1,0 +1,152 @@
+body {
+    color: #fff; /* White color code */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f0f0, #ccccff); /* Or use a background image: */
+    background: url('bass.jpg') no-repeat center center / cover;
+    background-color: rgba(hsl(0, 0%, 0%), green, blue, alpha);
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    width: 50px; /* Adjust logo width */
+    height: auto;
+    margin-right: float right;
+  }
+  .logo img {
+    max-width: 100%; /* Scale logo image */
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s; /* Add transition effect */
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Shop Styles */
+  .shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .shop-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .shop-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s; /* Add transition effect */
+  }
+  
+  .shop-item img:hover {
+    transform: rotate(5deg) scale(1.1); /* Add hover effect */
+  }
+  
+  /* Services Styles */
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .services-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .services-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 100%; /* Added to ensure image doesn't exceed container */
+    height: auto; /* Added to maintain image aspect ratio */
+    transition: transform 0.3s; /* Add transition effect */
+  }
+  
+  .services-item img:hover {
+    transform: rotate(5deg) scale(1.1); /* Add hover effect */
+  }
+  
+  .services-item h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Center align headers and text on about and signup pages */
+  .about-page, .signup-page {
+    text-align: center;
+  }
+  
+  .about-page header, .signup-page header {
+    justify-content: center;
+  }
+  
+  .about-page h1, .signup-page h1, .about-page h2, .signup-page h2, .about-page h3, .signup-page h3 {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+  }
+  
+  /* Set text color to white on each page */
+  .about-page, .signup-page, .shop-container, .services-container {
+    color: #fff; /* White color code */
+  }
+  
+  I added the following code to the .logo img, .shop-item img, and .services-item img selectors:
+  
+  transition: transform 0.3s; /* Add transition effect */
+  
+  And the following code to the .shop-item img:hover and .services-item img:hover selectors:
+  
+  transform: rotate(5deg) scale(1.1); /* Add hover effect */
+  
+  
